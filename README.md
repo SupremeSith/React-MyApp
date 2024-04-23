@@ -8,8 +8,3 @@ Observação: O Projeto "My-App" não obtem commit pois o mesmo é a parte final
 
  - [Mobile Login Page ](https://github.com/SupremeSith/Mobile-LoginPage-main--)
 
-
-## Autores
-
-- [@João Pedro Portocarrero](https://github.com/SupremeSith)
-
