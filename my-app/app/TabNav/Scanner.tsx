@@ -35,11 +35,13 @@ const Scanner = () => {
 
 const styles = StyleSheet.create({
     container: {
+        
         flex: 1,
         justifyContent: 'center',
         alignContent: 'center',
       },
     camera: {
+        
         flex: 1,
         justifyContent: 'center',
         alignContent: 'center',
@@ -47,15 +49,18 @@ const styles = StyleSheet.create({
         paddingTop: 240,
     },
     buttonContainer: {
+        
         flex: 1,
         backgroundColor: 'transparent',
     },
     button: {
+        
         flex: 1,
         alignSelf: 'flex-end',
         alignItems: 'center',
     },
     text: {
+        
         fontSize: 24,
         fontWeight: 'bold',
         color: 'white',
