@@ -22,12 +22,18 @@ const Scanner = () => {
 
     return(
         <View style={styles.container}>
+            
             <Camera style={styles.camera} type={type}>
+                
                 <View style={styles.buttonContainer}>
+                    
                     <TouchableOpacity style={styles.button}>
+                        
                         <MaterialIcons name="qr-code-scanner" size={300} color="#5D5C5C" style={{ opacity: iconOpacity }} />
                     </TouchableOpacity>
+                    
                 </View>
+                
             </Camera>
         </View>
     );
