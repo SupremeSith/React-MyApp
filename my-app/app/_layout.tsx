@@ -5,28 +5,33 @@ export default function layout() {
     <Stack>
 
       <Stack.Screen name="index" options={{
+      
         headerShown: false, 
         statusBarColor: "black" }} />
       
       <Stack.Screen name="TelasIniciais/RecupSenha" options={{
+      
         headerTitle: "" ,
         statusBarColor: "#011E83",
         headerTintColor: "#fff", 
         headerTransparent: true }} />
 
       <Stack.Screen name="TelasIniciais/Cadastro" options={{
+      
         headerTitle: "" , 
         statusBarColor: "red",
         headerTintColor: "#fff",
         headerTransparent: true }} />
 
     <Stack.Screen name="TelasIniciais/Login" options={{
+      
         headerTitle: "" , 
         statusBarColor: "red",
         headerTintColor: "#fff",
         headerTransparent: true }} />
 
       <Stack.Screen name="TabNav" options={{
+      
         headerShown: false, 
       }} />
     </Stack>
