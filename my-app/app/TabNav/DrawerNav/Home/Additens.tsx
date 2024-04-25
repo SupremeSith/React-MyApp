@@ -1,6 +1,9 @@
 import React from "react";
+
 import { View, StyleSheet} from "react-native";
+
 import InputinventoryInput from "@components/Inputitens";
+
 
 const AddIten = () => {
 
