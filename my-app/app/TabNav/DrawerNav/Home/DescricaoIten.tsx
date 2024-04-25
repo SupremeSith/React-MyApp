@@ -1,11 +1,15 @@
 import React from "react";
+
 import { View, StyleSheet, Text} from "react-native";
+
 import {MaterialCommunityIcons } from '@expo/vector-icons';
+
 import { Link } from "expo-router";
 
 
 const Descricao = () => {
     return(
+        
         <View style={styles.container}>
             <View style={styles.corpo}>
                 <Text style={styles.titulo}>N° do Inventario:</Text>
@@ -30,18 +34,22 @@ const Descricao = () => {
 };
 
 const styles = StyleSheet.create({
+    
     container: {
         flex: 1,
     },
     text: {
+        
         color: "#ffff",
         fontSize: 16,
     },
     corpo: {
+        
         flex: 1,
         marginTop: 50,
     },
     addButtonContainer: {
+        
         position: "absolute",
         bottom: 20,
         right: 0,
@@ -50,6 +58,7 @@ const styles = StyleSheet.create({
         height: 60,
     },
     titulo : {
+        
         fontSize: 20,
         fontWeight: '500',
         color: 'black',
@@ -58,6 +67,7 @@ const styles = StyleSheet.create({
         marginTop: 20,
     },
     item: {
+        
         fontSize: 15,
         fontWeight: '500',
         color: 'lightgray',
