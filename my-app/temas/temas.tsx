@@ -4,13 +4,7 @@ import { useColorScheme } from 'react-native'
 interface cores {
     
     
-    bgPrimary: string
-    bgSecondary: string
-    bginfo: string
-    textColorPrimary: string
-    textColorSecondary: string
-    bgPatrimonio: string
-
+ 
   
     
     bgPrimaryVariant?: string
