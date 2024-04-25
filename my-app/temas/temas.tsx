@@ -7,11 +7,7 @@ interface cores {
     bgPrimary: string
     bgSecondary: string
     bginfo: string
-    
-
-
-
-
+    textColorPrimary: string
 
     
     textColorSecondary: string
