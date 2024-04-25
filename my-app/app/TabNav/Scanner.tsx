@@ -1,10 +1,14 @@
 import React, { useState } from "react";
+
 import { View, StyleSheet, TouchableOpacity} from "react-native";
+
 import {MaterialIcons} from '@expo/vector-icons';
+
 import { Camera, CameraType } from "expo-camera";
 
 
 const Scanner = () => {
+    
     const [type, setType] = useState(CameraType.back);
     const [permission, requestPermission] = Camera.useCameraPermissions();
     const [iconOpacity, setIconOpacity] = useState(1); 
