@@ -19,10 +19,7 @@ const Cadastro = () => {
           <Inputs placeholder="Insira seu sobrenome" title="Sobrenome:" />
           <Inputs placeholder="Insira seu email" title="E-mail:"/>
           <Inputs placeholder="Insira seu telefone" title="Telefone"/>
-
-
-
-          
+          <Inputs placeholder="Insira sua senha" secureTextEntry title="Senha:"/>
           <Inputs placeholder="Confirme sua senha" secureTextEntry title="Confirmar senha:"/>
           <LinkBtn title="Entrar" href="TelasIniciais/Login" />
 
